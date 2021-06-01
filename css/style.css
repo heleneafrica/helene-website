@@ -1,0 +1,43 @@
+body{
+    background-color:  #14A0DD;
+    color: white;
+}
+
+header{
+    display: flex;
+}
+
+.section_1{
+    width: 50%;
+}
+.section_2{
+    width: 5%;
+}
+.section_3{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.landing_intro{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* mobile view */
+@media(max-width:990px){
+    .section_2{
+       display: none;
+    }
+    .section_3{
+        display: none;
+    }
+    .d-block{
+    
+    }
+}
+
+
